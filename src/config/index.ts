@@ -2,14 +2,14 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Pendia - foundation to care about your well being.",
-  author: "",
+  author: "Pendia",
   description:
     "Software Engineer based in Asia. This is how I slide in tech.",
   lang: "en",
   siteLogo: "/apple-touch-icon.png",
   navLinks: [
     { text: "Products", href: "#products" },
-    { text: "About", href: "#about" },
+    // { text: "About", href: "#about" },
   ],
   socialLinks: [
     { text: "Github", href: "https://github.com/itpofy2024o" },

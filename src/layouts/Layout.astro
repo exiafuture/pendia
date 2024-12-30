@@ -12,7 +12,6 @@ const {
   navLinks,
   lang,
   author,
-  socialLinks= new URL(Astro.url.pathname, Astro.site).href,
 } = SITE_CONFIG;
 
 ---
@@ -36,6 +35,6 @@ const {
     <main class="max-w-3xl px-5 mx-auto">
       <slot />
     </main>
-    <Footer author={author} socialLinks={socialLinks} />
+    <Footer author={author} />
   </body>
 </html>
