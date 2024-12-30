@@ -11,9 +11,9 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Products", href: "#products" },
     // { text: "About", href: "#about" },
   ],
-  socialLinks: [
-    { text: "Github", href: "https://github.com/itpofy2024o" },
-  ],
+  // socialLinks: [
+  // { text: "Github", href: "https://github.com/itpofy2024o" },
+  // ],
 };
 
 export const SITE_CONTENT: SiteContent = {
