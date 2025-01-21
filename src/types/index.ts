@@ -3,13 +3,11 @@ export interface SiteConfig extends HeaderProps {
   description: string;
   lang: string;
   author: string;
-  // socialLinks: { text: string; href: string }[];
 }
 
 export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
-  about: AboutProps;
 }
 
 export interface HeroProps {
@@ -25,11 +23,6 @@ export interface ExperienceProps {
   startDate: string;
   endDate: string;
   summary: string | string[];
-}
-
-export interface AboutProps {
-  description: string;
-  image: string;
 }
 
 export interface HeaderProps {

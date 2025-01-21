@@ -9,19 +9,15 @@ export const SITE_CONFIG: SiteConfig = {
   siteLogo: "/apple-touch-icon.png",
   navLinks: [
     { text: "Products", href: "#products" },
-    // { text: "About", href: "#about" },
   ],
-  // socialLinks: [
-  // { text: "Github", href: "https://github.com/itpofy2024o" },
-  // ],
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Pendia - A system to minimal and flexible wellness",
-    specialty: "By Chun Cheong",
-    summary: "Developer based in HKSAR. Service in Arts, Textual Media, and Design",
-    email: "jonarhlyann@gmail.com",
+    specialty: "A humane and lovely future in the era of Intelligence",
+    summary: "Service in Arts, Textual Medium, and Design",
+    email: "",
   },
   experience: [
     {
@@ -52,12 +48,6 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
-  about: {
-    description: `
-      Hey, this is focusing on making our everyday life full of suprise and spark from contest and curiosity.
-    `,
-    image: "/.jpg",
-  },
 };
 
 // #5755ff
