@@ -1,11 +1,11 @@
 ---
-import Menu from "@icons/Menu.astro";
+// import Menu from "@icons/Menu.astro";
 import { Image } from "astro:assets";
 import type { HeaderProps } from "@types";
 
 type Props = HeaderProps;
 
-const { siteLogo, navLinks } = Astro.props;
+const { siteLogo } = Astro.props;
 ---
 
 <header
@@ -21,7 +21,7 @@ const { siteLogo, navLinks } = Astro.props;
     />
   </a>
 
-  <button
+  <!-- <button
     type="button"
     id="menu-button"
     class="sm:hidden text-neutral px-1.5"
@@ -29,9 +29,9 @@ const { siteLogo, navLinks } = Astro.props;
     aria-controls="main-menu"
   >
     <Menu />
-  </button>
+  </button> -->
 
-  <nav
+  <!-- <nav
     class="hidden text-neutral border absolute right-5 top-20 bg-black border-neutral/40 py-5 px-4 rounded-xl sm:block sm:border-0 sm:p-0 sm:static sm:bg-transparent"
     id="main-menu"
   >
@@ -49,7 +49,7 @@ const { siteLogo, navLinks } = Astro.props;
         ))
       }
     </ul>
-  </nav>
+  </nav> -->
 </header>
 
 <script>

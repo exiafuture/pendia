@@ -1,9 +1,4 @@
 ---
-import type { SiteConfig } from "@types";
-
-// type Props = Pick<SiteConfig, "author" | "socialLinks">;
-
-// const { author } = Astro.props;
 const currentYear = new Date().getFullYear();
 ---
 
@@ -13,4 +8,8 @@ const currentYear = new Date().getFullYear();
   <p class="text-xs">
     Pendia © {currentYear}
   </p>
+  <div>
+    <a href="/terms">Terms</a> &
+    <a href="/privacy">Privacy</a>
+  </div>
 </footer>
