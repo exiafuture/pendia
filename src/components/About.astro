@@ -1,9 +1,9 @@
 ---
 import Section from "./Section.astro";
 // import { Image } from "astro:assets";
-import type { AboutProps, HeroProps } from "@types";
+import type {HeroProps } from "@types";
 
-type Props = AboutProps & Pick<HeroProps, "name">;
+type Props = Pick<HeroProps, "name">;
 
 const { description } = Astro.props;
 ---
