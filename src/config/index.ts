@@ -17,7 +17,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Pendia - A system to minimal and flexible wellness",
     specialty: "A humane and lovely future in the era of Intelligence",
     summary: "Service in Arts, Textual Medium, and Design",
-    email: "",
+    email: "pendia-community@protonmail.com",
   },
   experience: [
     {
