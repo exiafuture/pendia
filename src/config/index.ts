@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Pendia - foundation to care about your well being.",
   author: "Pendia",
   description:
-    "Software Engineer based in Asia. This is how I slide in tech.",
+    "This is how I slide in tech.",
   lang: "en",
   siteLogo: "/apple-touch-icon.png",
   navLinks: [
@@ -23,7 +23,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       company: "N",
       position: "Sole Developer",
-      startDate: "Nov 2024",
+      startDate: "Jan 2025",
       endDate: "now",
       summary: [
         "Implemented a creative platform for you to promote your creative arts."
