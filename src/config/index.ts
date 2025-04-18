@@ -21,12 +21,12 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "Nocative",
+      company: "N",
       position: "Sole Developer",
       startDate: "Nov 2024",
       endDate: "now",
       summary: [
-        "Implemented a 3 in one creative platform for you to chat freely, tell stories to global audience, and promote your creative arts."
+        "Implemented a creative platform for you to promote your creative arts."
       ],
     },
     {
